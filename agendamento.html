@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <title>Agendamento</title>
+        <style>
+             
+            nav {
+    
+                width: 100%;
+    
+                display: flex;
+    
+                position: inherit;
+    
+                background-color: rgb(121, 121, 240);
+    
+                z-index: 99;
+    
+            }
+    
+            nav a {
+    
+                color: #fff;
+    
+                margin: auto 20px auto 40px;
+    
+                text-decoration: none;
+    
+                font-weight: bold;
+            }
+    
+            nav ul{
+                float: left;
+                list-style: none;
+                margin-left: 20px;
+
+            }
+
+            h1{
+                color: rgb(0, 0, 0);
+            }
+
+            body {
+                background: rgb(255,0,181);
+background: linear-gradient(90deg, rgba(255,0,181,1) 24%, rgba(155,34,225,1) 53%);
+            }
+
+            footer {
+                position: absolute;
+                
+                background-color: rgb(121, 121, 240);
+                color: aqua;
+                width: 100%;
+                height: 100px;
+                text-align: center;
+                line-height: 100px;
+                bottom: 0;
+            }
+
+            *{
+                color: #fff;
+            }
+
+            #agendar{
+                background: green;
+            }
+
+            h1{
+                color: #fff;
+            }
+
+            #obs{
+                margin-bottom: 5;
+            }
+
+        
+    
+        </style> 
+    </head>
+    
+    <body>
+        <nav>
+            <ol>
+                
+    
+                <a href="inicial.html">
+                <ul>
+                Pagina inicial
+                </ul>
+                </a>
+    
+                <a href="loja.html">
+                    <ul>
+                        Loja
+                    </ul>
+                    </a>
+    
+                <a href="adocao.html">
+                <ul>
+                    Adoçao
+                </ul>
+                </a>
+    
+                <a href="agendamento.html">
+                    <ul>
+                        Agendamento
+                    </ul>
+                    </a>
+    
+                    <a href="contato.html">
+                        <ul>
+                            Contato
+                        </ul>
+                        </a>
+    
+                        
+                
+            </ol>
+         </nav>
+       
+         
+         
+         <h1>AGENDE AQUI O SEU HORARIO!</h1>
+
+        
+<form>
+    <p><h1>Agendamento</h1></p>
+    <label>Nome:</label>
+    <input type="text" name="mail" id="mail" placeholder="Digite o seu nome" required>
+    <hr />
+
+    <label>e-mail:</label>
+    <input type="email" name="mail" id="mail" placeholder="Digite seu e-mail para informações" required>
+    <hr />
+
+
+    <label>Telefone: </label>
+    <input type="tel" name="phone" id="phone" placeholder="Telefone para contato" required>
+    <hr />
+
+    <label>Qual é o seu animal:</label>
+    <select>
+        <option>Gato</option>
+        <option>Cachorro</option>
+        <option>Outro</option>
+        </select>
+
+        <hr />
+
+        <label>Qual horario de comparecimento:</label>
+        <input type="radio">Manhã
+        <input type="radio">Tarde
+        <input type="radio">Noite
+
+        <hr />
+
+    
+
+       
+
+        <label id="obs">Observação:</label>
+        <textarea></textarea>
+
+        <hr />
+
+        <input type="submit" id="agendar" value="Agendar">
+    
+</form>
+
+<footer>
+    Para mais informações nos envie uma mensagem!
+
+</footer>
+
+    </body>
+</html>
